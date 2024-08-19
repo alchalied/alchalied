@@ -1,0 +1,123 @@
+:root {
+    --mainColor : #082032;
+    --secondaryColor : #2C394B;
+    --acsentColor : #FF9F29;
+}
+
+body {
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'lato', sans-serif;
+}
+
+section h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+section h2 {
+    color: white;
+}
+
+section p {
+    color: white;
+}
+
+/* Navbar*/
+.nav-link.active {
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+}
+
+.nav-dark {
+    background-color: var(--secondaryColor) !important;
+    z-index: 10;
+    transition: 0.8s;
+}
+/* End Navbar*/
+
+/*Hero Section*/
+.color-acsent {
+    color: var(--acsentColor);
+}
+
+#hero {
+    color: #fff;
+    min-height:100vh;
+    padding-top: 75px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero h2 {
+    font-weight: 300;
+}
+
+#hero p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.btn-custom1:hover {
+    box-shadow: 0 0 10px rgba(255, 166, 0, .8);
+}
+
+/*CTA*/
+.btn-custom1 {
+    background-color: var(--acsentColor);
+    text-align: center;
+    color: white;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.social-icon svg {
+    margin-right: .7em;
+    margin-bottom: 10px;
+}
+
+.social-icon-footer svg {
+    margin-right: .7em;
+    margin-bottom: 10px;
+
+}
+
+/*End Hero Section*/
+
+/* About */
+hr {
+    width: 35%;
+    height: 5px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#about {
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+/* End About */
+
+/* Skill */
+#skill {
+    min-height: 600px;
+    width: 100%;
+    color: #fff;
+}
+
+#skill img {
+    height: 40%;
+    margin: 10px;
+}
+/* End Skill */
